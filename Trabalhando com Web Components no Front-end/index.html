@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL DE NOTICIAS GALATICAS</title>
+    <link rel="stylesheet" href="/styles/card.css">
+    <script src="/src/Components/CardNews.js" defer></script>
+    <script src="/src/Components/TituloDinamico.js" defer></script>
+    <script src="/src/Components/NewNews.js" defer></script>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card_left">
+                <span>By Igor Santana</span>
+                <h1>Dart Vader Contrata Devs</h1>
+                <p>Darth Vader procura desenvolvedores que sabem usar computadores.</p>
+            </div>
+            <div class="card_right">
+                <img src="/assets/Darth_Vader.jpg" alt="##" style="width: 300px;">
+            </div>
+        </div>
+    </div>
+    <card-news></card-news>
+    <titulo-dinamico titulo="top baile torre hoje"></titulo-dinamico>
+    <new-news
+        autor="Felipe"
+        title="Dart Vader Contrata Devs"
+        link-url="/assets/Darth_Vader.jpg"
+        content="Darth Vader procura desenvolvedores que sabem usar computadores."
+    >
+    </new-news>
+
+    
+</body>
+</html>

@@ -1,0 +1,9 @@
+//convente ts para javascript arquivo por arquivo
+npx tsc index.ts
+
+//criar um arquivo de configuração para converter em grande escala 
+npx tsc --init
+
+//criar script dentro do package.json para ele compilar para js e executar o codigo em js
+"start":"npx tsc && node build/index.js",
+> comando para chamar: npm run start
